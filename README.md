@@ -2,14 +2,11 @@
 
 A terminal-based application to manage student academic records with secure login and performance analysis.
 
----
 
 ##  User Roles
 
 - **Admin**: Manage student data (Add, Update, Delete, Search).
 - **Student**: View personal report card and compare with class topper.
-
----
 
 ##  Authentication
 
@@ -17,7 +14,6 @@ A terminal-based application to manage student academic records with secure logi
 - Password input masked for privacy
 - Password reset option available after login
 
----
 
 ##  Admin Features
 
@@ -29,8 +25,6 @@ A terminal-based application to manage student academic records with secure logi
 - Export reports to text files
 - Change admin password and logout
 
----
-
 ##  Student Features
 
 - View marks, total, average, and rank
@@ -38,23 +32,18 @@ A terminal-based application to manage student academic records with secure logi
 - Compare performance with class topper visually
 - Change password and logout
 
----
 
 ##  Data Storage
 
 - Student records stored in binary files (`students.dat`)
 - Admin credentials stored separately (`admin.dat`)
 - Password changes overwrite only the password field
-
----
-
+  
 ##  Analytics & Visualization
 
 - Automatic rank calculation using sorting algorithms
 - Identify subject-wise toppers and class averages
 - Display performance as ASCII bar charts
-
----
 
 ##  Input Validation
 
@@ -62,8 +51,6 @@ A terminal-based application to manage student academic records with secure logi
 - Marks restricted to 0–100 range
 - String length checks for names, passwords, and classes
 - Login verifies ID and password match
-
----
 
 ##  Summary
 
