@@ -1,17 +1,17 @@
-# 🎓 Student Record Management System (C Language Project)
+#  Student Record Management System (C Language Project)
 
 A terminal-based application to manage student academic records with secure login and performance analysis.
 
 ---
 
-## 🔐 User Roles
+##  User Roles
 
 - **Admin**: Manage student data (Add, Update, Delete, Search).
 - **Student**: View personal report card and compare with class topper.
 
 ---
 
-## 🔒 Authentication
+##  Authentication
 
 - Secure login for both **Admin** and **Students**
 - Password input masked for privacy
@@ -19,7 +19,7 @@ A terminal-based application to manage student academic records with secure logi
 
 ---
 
-## 🧑‍💼 Admin Features
+##  Admin Features
 
 - Add, update, delete student records
 - Search students by **Name**, **ID**, or **Class**
@@ -31,7 +31,7 @@ A terminal-based application to manage student academic records with secure logi
 
 ---
 
-## 🧑‍🎓 Student Features
+##  Student Features
 
 - View marks, total, average, and rank
 - See ASCII bar chart of own performance
@@ -40,7 +40,7 @@ A terminal-based application to manage student academic records with secure logi
 
 ---
 
-## 💾 Data Storage
+##  Data Storage
 
 - Student records stored in binary files (`students.dat`)
 - Admin credentials stored separately (`admin.dat`)
@@ -48,7 +48,7 @@ A terminal-based application to manage student academic records with secure logi
 
 ---
 
-## 📊 Analytics & Visualization
+##  Analytics & Visualization
 
 - Automatic rank calculation using sorting algorithms
 - Identify subject-wise toppers and class averages
@@ -56,7 +56,7 @@ A terminal-based application to manage student academic records with secure logi
 
 ---
 
-## ✅ Input Validation
+##  Input Validation
 
 - Unique student IDs enforced
 - Marks restricted to 0–100 range
@@ -65,6 +65,6 @@ A terminal-based application to manage student academic records with secure logi
 
 ---
 
-## 📝 Summary
+##  Summary
 
 > **Student Record Management System in C** – Designed and built a role-based academic record system with login authentication, file-based data persistence, password masking, and automated analytics including rank calculation, subject averages, and top performer charts. Integrated ASCII bar charts for visual reporting and admin/student dashboards for full control and access.
